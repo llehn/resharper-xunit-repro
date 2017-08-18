@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Tic Test Rule Set" Description=" " ToolsVersion="15.0">
+  <Include Path="stylecop.ruleset" Action="Default" />
+  <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
+    <Rule Id="SA1600" Action="None" />
+	  <Rule Id="SA1005" Action="None" />
+	  <Rule Id="SA1512" Action="None" />
+    <Rule Id="SA1602" Action="None" />
+  </Rules>
+  <Rules AnalyzerId="xUnit.Analyzers" RuleNamespace="xUnit.Analyzers">
+    <Rule Id="xUnit1004" Action="None" />
+  </Rules>
+</RuleSet>
